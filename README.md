@@ -11,7 +11,11 @@ PWA features available as of writing:
 
 ToC:
 
+- [Setting up with Nuxt]()
 - [Application Manifest]()
+- [Android Emulator]()
+- [IOS Support]()
+
 - [Service Workers]()
 - [Offline Access through Caching]()
 - [Advanced Caching Strategies]()
@@ -22,18 +26,4 @@ ToC:
 - [Device APIs]()
 - [Project Patterns]()
 
-- [Android Emulator]()
-- [IOS Support]()
 - [Lighthouse Audit]()
-
-- [Service Worker Life-Cycle]()
-- [Registering Service Workers]()
-- [The Install Event]()
-- [The Activate Event]()
-- [Fetch Events]()
-- [The Install Banner]()
-- [Offline Mode]()
-- [Pre-Caching Assets]()
-- [Getting Cached Assets]()
-- [Cache Versioning]()
-- [Dynamic Caching]()
