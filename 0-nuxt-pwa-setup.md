@@ -2,7 +2,13 @@
 
 This guide although includes configuration for Nuxt is more of a deep dive into the nuts and bolts of PWA's. However this section covers the basic structure of a Nuxt PWA.
 
-Nuxt has a first-party PWA module that can be either added as the project is created or after the fact via npm/yarn:
+Nuxt has a first-party PWA module that can be either added as the project is created or after the fact via npm/yarn. The Nuxt-PWA module is made up of five modules:
+
+1. **Icons**: As long as there is a source icon in the `static` folder this module creates all the sizes and adds the paths to the compiled manifest
+2. **Meta**: Allows meta data to be added/overwritten
+3. **Manifest**: Located within the `nuxt.config.js` file
+4. **Workbox**: Provisions for offline support
+5. **OneSignal**: Provisions for push notifications
 
 #### [Link to setup page](https://pwa.nuxtjs.org/setup)
 
